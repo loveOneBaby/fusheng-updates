@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>浮生更新</title>
+        <link>https://raw.githubusercontent.com/loveOneBaby/fusheng-updates/main/appcast.xml</link>
+        <description>浮生 macOS 稳定版更新</description>
+        <language>zh-CN</language>
+        <item>
+            <title>0.1.3</title>
+            <pubDate>Sun, 09 Aug 2026 22:30:09 +0800</pubDate>
+            <link>https://github.com/loveOneBaby/fusheng-updates</link>
+            <sparkle:version>0.1.3</sparkle:version>
+            <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 浮生 v0.1.3
+
+- 新增「设置 → 软件更新」，支持手动检查新版本。
+- 支持每 6 小时自动检查、后台下载和安全安装。
+- 更新包与 appcast 均使用 Sparkle Ed25519 签名验证。
+- 优化实时面试问题聚合、追问预测和 macOS 交互体验。
+]]></description>
+            <enclosure url="https://github.com/loveOneBaby/fusheng-updates/releases/download/v0.1.3/Fusheng-v0.1.3.zip" length="4458294" type="application/octet-stream" sparkle:edSignature="/mh2qqP1dPIxlEIznimRG1rKI8/YIF1mnvNkaNzneeJANfB9Pp5RPYCRDJmZgtK3mFgVa8CI2RsMsAUirGImDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/loveOneBaby/fusheng-updates/releases/download/v0.1.3/%E6%B5%AE%E7%94%9F0.1.3-0.1.2.delta" sparkle:deltaFrom="0.1.2" length="52594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977696" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Dr60tLd19doU8r+zs1l4mWz77RJFSCzH0kKUN/r3T8NwN/yRvrnT8ocBeNCKrytySP/Wvx3BLEaLxBHszfdcDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.1.2</title>
+            <pubDate>Sun, 09 Aug 2026 22:13:00 +0800</pubDate>
+            <link>https://github.com/loveOneBaby/fusheng-updates</link>
+            <sparkle:version>0.1.2</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/loveOneBaby/fusheng-updates/releases/download/v0.1.3/Fusheng-v0.1.2.zip" length="4456445" type="application/octet-stream" sparkle:edSignature="r4JKE9CGGHFol6tPMuh8xXGufcg4DeC9ybq80c7OpaCcfN/UK/9++t8I9g1F22eyQ4GvPp3mvqMYVrdBa3OLCg=="/>
+        </item>
+    </channel>
+</rss>
+<!-- sparkle-signatures:
+edSignature: kb0XEf49QjmmU13Pv6oQqAO6EpDM6fCUjFNUzZPLHdVJcuk/rNPmpYaGrtlsYtNhofWbUcTGbHTST6qrbLk+AQ==
+length: 3043
+-->
